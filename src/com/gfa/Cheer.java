@@ -6,7 +6,7 @@ public class Cheer {
         System.out.println("JAVA");
     }
 
-    public void cheer(int number) {
-        System.out.println("Group " + number);
+    public void cheer(String groupName, int number) {
+        System.out.println("Cheer for :" + groupName + number);
     }
 }
