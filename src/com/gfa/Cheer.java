@@ -1,5 +1,5 @@
 public class Cheer {
-    public void cheer() {
-        System.out.println("Group 6");
+    public void cheer(int number) {
+        System.out.println("Group " + number);
     }
 }
